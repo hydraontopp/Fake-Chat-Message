@@ -1,8 +1,3 @@
-execute @s[tag=admin] ~~~ scoreboard players add anarchytoggle ATT 1
-execute @s[tag=admin] ~~~ scoreboard players operation @a ATT = anarchytoggle ATT
-#turned on
-execute @s[tag=staffstatus,scores={ATT=1}] ~~~ scoreboard players set anarchytoggle anarchytoggle 1
-execute @s[tag=staffstatus,scores={ATT=1}] ~~~ scoreboard players operation @a anarchytoggle = anarchytoggledummy anarchytoggle
 tellraw @a[scores={anarchytoggle=1}] {"text":"<GiantThread673> GIVE ME A KIT PLZZ!","color":"yellow"}
 tellraw @a[scores={anarchytoggle=1}] {"text":"<Cyclerzzz> bro just spawn one in LMAO","color":"yellow"}
 tellraw @a[scores={anarchytoggle=1}] {"text":"<Cyclerzzz> kits at 825789287 25 25825335 lol","color":"yellow"}
